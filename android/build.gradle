@@ -27,6 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 28
 
+    namespace "com.yancep.otp_consent"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
